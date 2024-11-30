@@ -52,3 +52,18 @@ Before running the code, ensure the following:
 rag_chain.invoke("quelle est la qualité de l'eau?")
 
 -> Output: The pipeline retrieves relevant information from the blog and generates a response using GPT-3.5.
+
+### ML model training:
+
+1. Download Dataset:
+
+- Place the water_potability.csv dataset in the project directory.
+
+2. Train the Model:
+
+- The code provided includes data preprocessing, model training, and saving the model for reuse.
+
+## Outputs
+
+- Potable: The water meets potability standards.
+- Not Potable: The water does not meet potability standards.
